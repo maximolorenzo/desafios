@@ -1,0 +1,100 @@
+.logo {
+  width: 100px; }
+
+.estiloEncabezado {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px #444444;
+  border-bottom: 2px;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem; }
+
+.redesSociales {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+img {
+  width: 5rem; }
+
+ul {
+  display: flex;
+  list-style: none; }
+
+.pie {
+  background-image: linear-gradient(to top, white, #f4eeb1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px; }
+
+.carruselTam {
+  height: calc(100vh - 137,58px); }
+
+.fondoPantalla {
+  background-color: #f4eeb1; }
+
+h2 {
+  text-align: center;
+  font-weight: bold; }
+
+.sobreNosotros {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem; }
+
+.formularioHijo {
+  width: 70%;
+  margin-left: 15%;
+  height: 20px;
+  font-family: 'Dosis', sans-serif;
+  border: #343434 solid 1px;
+  border-radius: 2px; }
+
+.enviar {
+  width: 70%;
+  margin-left: 15%; }
+
+.formularioInfo {
+  width: 70%;
+  margin-left: 15%; }
+
+.review {
+  background-color: #f4eeb1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 21.5%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  margin-top: 5%;
+  border: 1px black solid; }
+
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px; }
+  #galeria .col-lg-4 img {
+    width: 100%; }
+  #galeria .col-lg-4 img:hover {
+    border: 5px solid #f7f7f7; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 9%; }
+
+h5 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  margin-top: 2rem; }
