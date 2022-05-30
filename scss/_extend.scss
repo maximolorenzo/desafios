@@ -1,0 +1,12 @@
+.palabras{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+   
+  }
+  
+.palabrasDos{
+    @extend .palabras;
+    font-size: 2rem;
+  }

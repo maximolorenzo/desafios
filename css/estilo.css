@@ -3,7 +3,7 @@
   padding: 0; }
 
 .carruselTam {
-  height: calc(100vh - 137,58px); }
+  height: -37vh, 58px; }
 
 .fondoPantalla {
   background-color: #f4eeb1; }
@@ -25,12 +25,26 @@
   font-family: 'Dosis', sans-serif;
   font-size: 2rem; }
 
+.textoNosotros {
+  margin-left: 5rem;
+  margin-right: 5rem; }
+
 .sobreNosotros {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 4rem; }
+
+.pie {
+  text-decoration: grey;
+  font-size: 20px;
+  background-image: linear-gradient(to top, white, #f4eeb1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .redesSociales {
   display: flex;
@@ -44,15 +58,14 @@ ul {
   display: flex;
   list-style: none; }
 
-.pie {
-  background-image: linear-gradient(to top, white, #f4eeb1);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px; }
+.palabras, .palabrasDos {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.palabrasDos {
+  font-size: 2rem; }
 
 .bodyContacto {
   height: 100vh;
@@ -116,14 +129,3 @@ textarea {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 9%; }
-
-.palabras {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
-.palabrasDos {
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 3rem; }

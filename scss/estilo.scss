@@ -6,13 +6,14 @@
   padding: 0;
 }
 .carruselTam{
-    height: calc(100vh - 137,58px);
+    height: 100vh - 137,58px;
   }
   .fondoPantalla{
     background-color: #f4eeb1;
     
   }
   @import "head";
+  @import "mixin";
 
   .sobreNosotros{
     font-family: 'Dosis', sans-serif;
@@ -21,7 +22,10 @@
      margin-top: 5rem;
     margin-bottom: 4rem;      
 }
-@import "footer";
+
+@import "maps";
+@import "_redes";
+@import "extend";
 
 .bodyContacto{
   height: 100vh;
@@ -98,18 +102,5 @@ textarea{
     justify-content: center;
     margin-bottom: 9%;
   }
-  .palabras{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 2rem ;
-    margin-bottom: 2rem;
-   
-  }
-  .palabrasDos{
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 3rem ;
-    
-   
-  }
+  
   

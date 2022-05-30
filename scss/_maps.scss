@@ -1,0 +1,12 @@
+$estilo:(color:grey,fuente:20px );
+
+.pie{
+    text-decoration: map-get($estilo,color) ;
+    font-size: map-get($estilo, fuente );
+    background-image: linear-gradient(to top,white,#f4eeb1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
