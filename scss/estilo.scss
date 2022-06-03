@@ -15,14 +15,22 @@
   @import "head";
 
   .sobreNosotros{
-    font-family: 'Dosis', sans-serif;
+    
     font-size: 20px;
     margin: auto;
      margin-top: 5rem;
     margin-bottom: 4rem;      
 }
+
+.textoMargen{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 @import "footer";
 
+
+
+/* Contacto  */
 .bodyContacto{
   height: 100vh;
   display: flex;
@@ -33,11 +41,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
+
 }
+
 .formularioContacto{
-  background-color: pink;
+  background-color: grey;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -68,7 +76,7 @@ textarea{
   margin-left: 25%;
  
 }
-  
+  /* REVIEW */
   .review{
     background-color: #f4eeb1;
     display: flex;
@@ -92,6 +100,7 @@ textarea{
      border: 5px solid #f7f7f7;
   }
 }
+
   .ubicacion{
     display: flex;
     flex-direction: column;

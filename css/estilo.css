@@ -26,34 +26,22 @@
   font-size: 2rem; }
 
 .sobreNosotros {
-  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 4rem; }
 
-.redesSociales {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center; }
+.textoMargen {
+  margin-left: 3rem;
+  margin-right: 3rem; }
 
-img {
-  width: 5rem; }
-
-ul {
-  display: flex;
-  list-style: none; }
+.logoDos {
+  width: 35%; }
 
 .pie {
-  background-image: linear-gradient(to top, white, #f4eeb1);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px; }
+  background-color: white; }
 
+/* Contacto  */
 .bodyContacto {
   height: 100vh;
   display: flex;
@@ -66,7 +54,7 @@ ul {
   align-items: center; }
 
 .formularioContacto {
-  background-color: pink;
+  background-color: grey;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -93,6 +81,7 @@ textarea {
 .infoTrabajo {
   margin-left: 25%; }
 
+/* REVIEW */
 .review {
   background-color: #f4eeb1;
   display: flex;
