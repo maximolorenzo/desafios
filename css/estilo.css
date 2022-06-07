@@ -83,15 +83,23 @@
   border: 5px solid #f4eeb1;
   transform: scale(1.1); }
 
-.ubicacion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 9%; }
-
 .subtitulos {
   text-align: center;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2rem; }
+
+.grid {
+  display: grid;
+  grid-template-areas: "mapa indicaciones"; }
+
+.indicaciones {
+  grid-area: indicaciones;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.mapa {
+  grid-area: mapa;
+  padding-left: 1rem;
+  padding-bottom: 2rem; }
