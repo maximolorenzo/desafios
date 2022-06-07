@@ -1,5 +1,6 @@
-
-
+@import "head";
+@import "review";
+@import "footer";
 
 *{
   margin: 0;
@@ -12,7 +13,7 @@
     background-color: #f4eeb1;
     
   }
-  @import "head";
+ 
 
   .sobreNosotros{
     
@@ -26,80 +27,33 @@
   margin-left: 3rem;
   margin-right: 3rem;
 }
-@import "footer";
+
 
 
 
 /* Contacto  */
-.bodyContacto{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.contacto{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.contactanos {
+  border-radius: 5px;
+  box-shadow: -10px 2px 10px;
 }
 
-.formularioContacto{
-  background-color: grey;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  text-align: center;
-  width: 600px;
-  font-size: 20px;
-  border: black solid 2px ;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  
- 
-}
-.formularioHijo{
-  margin-left: 25%;
-  width: 50%;
-  height: 30px;
- 
-}
-.enviar{
-  width: 50%;
-  margin-left: 25%
-}
-textarea{
-  width: 50%;
-  margin-left: 25%
-}
-.infoTrabajo{
-  margin-left: 25%;
- 
-}
-  /* REVIEW */
-  .review{
-    background-color: #f4eeb1;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 21.5%;
-    font-family: 'Dosis', sans-serif;
-    font-size: 15px;
-    margin-top: 5%;
-    border: 1px black solid;
-  }
+
+/*Galeria*/ 
   #galeria .col-lg-4{
     margin: 0;
     padding: 25px;
- 
-  
-  img{
-    width: 100%;  
   }
   
- img:hover {
-     border: 5px solid #f7f7f7;
+  .fotosGaleria{
+    width: 100%;
+    transition:0.3s;
+    border-radius: 5px;
   }
-}
+  
+ .fotosGaleria:hover {
+     border: 5px solid #f4eeb1;
+     transform: scale(1.1);
+    }
 
   .ubicacion{
     display: flex;
@@ -107,18 +61,15 @@ textarea{
     justify-content: center;
     margin-bottom: 9%;
   }
-  .palabras{
+  .subtitulos{
     text-align: center;
     font-weight: bold;
     margin-top: 2rem ;
     margin-bottom: 2rem;
+    font-size: 2rem;
    
   }
-  .palabrasDos{
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 3rem ;
-    
-   
-  }
+
+
+ 
   
