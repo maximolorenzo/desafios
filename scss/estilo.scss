@@ -1,14 +1,13 @@
 @import "head";
 @import "review";
 @import "footer";
-
+@import "variables";
 *{
   margin: 0;
   padding: 0;
 }
-.carruselTam{
-    height: calc(100vh - 137,58px);
-  }
+
+
   .fondoPantalla{
     background-color: #f4eeb1;
     
@@ -16,19 +15,22 @@
  
 
   .sobreNosotros{
-    
+    font-family: $fuente;
     font-size: 20px;
     margin: auto;
-     margin-top: 5rem;
+    margin-top: 5rem;
     margin-bottom: 4rem;      
 }
 
 .textoMargen{
   margin-left: 3rem;
   margin-right: 3rem;
+  font-family: $fuente;
 }
 
-
+.texto{
+  font-family: $fuente;
+}
 
 
 /* Contacto  */
@@ -61,9 +63,9 @@
     margin-top: 2rem ;
     margin-bottom: 2rem;
     font-size: 2rem;
-   
+    font-family: $fuente;
   }
-
+ /*grid ubicacion*/
   .grid{
     display: grid;
     grid-template-areas:
@@ -71,14 +73,24 @@
   }
   .indicaciones{
     grid-area: indicaciones;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem 1rem;
+    width: 100%;
+    font-family: $fuente;
   }
   .mapa{
     grid-area: mapa;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
+    padding: 0 2rem ;
+    width: 100%;
   }
   
- 
+  
+ /*grid tablet*/
+
+ @media screen and (max-width: 800px){
+   .grid{
+     grid-template-areas: 
+     "mapa mapa"
+     "indicaciones indicaciones";
+   }
+ }
   

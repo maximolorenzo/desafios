@@ -1,10 +1,10 @@
+@import "variables";
 .logo{
     width: 100px;
   
   }
   .estiloEncabezado{
-    position: sticky;
-    top: 0;
+    
     display: flex;
     flex-wrap: inherit;
     align-items: center;
@@ -13,7 +13,7 @@
     border-bottom: 1px #444444;
     border-bottom: 2px; 
     font-weight: bold;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuente ;
     font-size: 2rem;
    
   }
